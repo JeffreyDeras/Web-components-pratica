@@ -83,7 +83,7 @@ class Cardnews extends HTMLElement {
         }
         `;
 
-        return style
+        return style;
     }
 
 }
