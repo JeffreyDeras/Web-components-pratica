@@ -40,12 +40,14 @@ class Cardnews extends HTMLElement {
 
         componentRoot.appendChild(cardLeft);
         componentRoot.appendChild(cardRight);
+
         return componentRoot;
     }
 
     styles() { 
         const style = document.createElement('style');
         style.textContent = `
+
         .card {
             width: 75%;
             display: flex;
@@ -76,11 +78,11 @@ class Cardnews extends HTMLElement {
             font-weight: bold;
         
         }
-        
-        
+                
         .card_left p {
             color: gray;
         }
+        
         `;
 
         return style;
