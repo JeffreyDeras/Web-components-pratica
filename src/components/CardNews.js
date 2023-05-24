@@ -4,7 +4,7 @@ class Cardnews extends HTMLElement {
 
         const shadow = this.attachShadow({ mode: 'open' });
         shadow.appendChild(this.build());
-        shadow.appendChild(this.style());
+        shadow.appendChild(this.styles());
     }
 
     build() {
